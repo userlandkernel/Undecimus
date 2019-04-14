@@ -16,6 +16,8 @@
 #include "utils.h"
 #include "voucher_swap-poc.h"
 #include "necp.h"
+#include "zmap-reboot.h" // Way better than using vulns, you can just exhaust the zone-map by sending machmessages
+#include "printcenter-respring.h" // For universal respring method, works on non-jailbroken. Useful if unc0ver fails because of cydia package issues
 
 @interface SettingsTableViewController ()
 
